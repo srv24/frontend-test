@@ -1,0 +1,21 @@
+@use 'base/variables' as v;
+
+.grid-hero{
+    display: grid;
+    grid-template-columns: 55% 45%;
+    align-items: center;
+    column-gap: 5rem;
+    margin-top: 5rem;
+
+    .grid-1 h2{
+        font-size: 6.5rem;
+        line-height: 1;
+        
+    }
+    .grid-1 p{
+        width: 70%;
+        color: v.$gris;
+        margin-bottom: 5rem;
+    }
+}
+

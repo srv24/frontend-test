@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700;900&display=swap%27");
+html {
+  /* 1rem = 10px */
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  font-size: 1.8rem;
+  font-family: "Poppins", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: hsl(0deg, 0%, 75%);
+  font-weight: 700;
+  font-size: 1.6rem;
+}
+a:hover {
+  color: hsl(257deg, 27%, 26%);
+  cursor: pointer;
+}
+
+.contenedor {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+h1, h2, h3 {
+  margin: 0;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header {
+  margin-top: 4rem;
+}
+
+.navegacion li {
+  list-style: none;
+}
+.navegacion ul {
+  display: flex;
+  flex-direction: row;
+  margin: 0;
+  gap: 2rem;
+}
+
+.login a {
+  margin-right: 1rem;
+}
+.login a:last-of-type {
+  margin-right: 0;
+}
+
+.icono {
+  display: block;
+}
+
+.enlaces {
+  display: flex;
+  align-items: center;
+}
+
+.grid-hero {
+  display: grid;
+  grid-template-columns: 55% 45%;
+  align-items: center;
+  column-gap: 5rem;
+  margin-top: 5rem;
+}
+.grid-hero .grid-1 h2 {
+  font-size: 6.5rem;
+  line-height: 1;
+}
+.grid-hero .grid-1 p {
+  width: 70%;
+  color: hsl(0deg, 0%, 75%);
+  margin-bottom: 5rem;
+}
+
+.boton-principal {
+  background-color: hsl(180deg, 66%, 49%);
+  color: hsl(257deg, 27%, 26%);
+  border-radius: 2.5rem;
+  padding: 1rem 2.5rem;
+}
+.boton-principal:hover {
+  color: white;
+  background-color: hsl(180deg, 53%, 64%);
+}

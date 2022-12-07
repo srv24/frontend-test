@@ -1,0 +1,43 @@
+@use 'base/variables'as v;
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.header {
+    margin-top: 4rem;
+}
+
+.navegacion {
+
+    li{
+        list-style:none;
+    }
+    ul {
+        display: flex;
+        flex-direction: row;
+        margin: 0;
+        gap: 2rem;
+    }
+    
+}
+
+.login a{
+   margin-right: 1rem;
+
+   &:last-of-type{
+    margin-right: 0;
+   }
+}
+
+.icono {
+    display: block;
+}
+
+.enlaces {
+    display: flex;
+    align-items: center;
+}

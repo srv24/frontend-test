@@ -1,0 +1,13 @@
+@use 'base/variables' as v;
+
+.boton-principal {
+    background-color: v.$celeste;
+    color: v.$dark;
+    border-radius: 2.5rem;
+    padding: 1rem 2.5rem;
+
+    &:hover{
+        color: white;
+        background-color: hsl(180, 53%, 64%);
+    }
+}
