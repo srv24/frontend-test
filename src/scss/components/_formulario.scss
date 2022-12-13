@@ -1,0 +1,37 @@
+@use 'base/variables' as v;
+
+.formulario {
+    background-color: v.$dark;
+    background-image: url('../../../images/bg-shorten-desktop.svg');
+    background-repeat: no-repeat;
+    padding: 5rem;
+    background-size: cover;
+    border-radius: 1.8rem;
+}
+.form{
+    display: flex;
+    justify-content: space-between;
+}
+.formulario-url{
+    padding: 2rem;
+    width: 80%;
+    margin-right: 1rem;
+    border: none;
+    border-radius: 1.8rem;
+}
+.formulario-submit{
+    padding: 2rem;
+    width: 18%;
+    font-weight:900;
+    background-color: v.$celeste;
+    color: v.$dark;
+    border:none;
+    border-radius: 1.8rem;
+    padding: 2rem;
+    cursor: pointer;
+
+    &:hover{
+        color: white;
+        background-color: hsl(180, 53%, 64%);
+    }
+}
