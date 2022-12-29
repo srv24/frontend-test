@@ -1,0 +1,47 @@
+@use 'base/variables' as v;
+
+.main{
+    margin-top: 2rem;
+    background-color: v.$gris;
+     width: 100%;
+ 
+    .div-main{
+        margin-top: 5rem;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        column-gap: 3rem;
+        position:relative;
+        padding: 10rem 0;
+    }
+    .main-text {
+        padding-top: 12rem;
+    }
+}
+
+.article-main {
+    
+    position:relative;
+    background-color: #fff;
+    border-radius: 1rem;
+    padding: 2rem;
+    
+    h3{
+        font-weight: bold;
+        color: v.$violetaOscuro;
+        text-align: center;
+        margin-top: 6rem;
+    }
+
+    img{
+        background-color: v.$dark;
+        padding: 2rem;
+        border-radius: 50%;
+        position: absolute;
+        top: -4rem;
+        left: 3rem;
+    }
+    p{
+        color: v.$GrayishViolet;
+        text-align: center;
+    }
+}

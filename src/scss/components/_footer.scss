@@ -1,0 +1,29 @@
+
+@use 'base/variables' as v;
+
+.footer {
+    background-color: v.$violetaOscuro;
+    padding: 8rem;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    column-gap: 3rem;
+
+    .footer-enlaces{
+        text-align: center;
+    }
+
+    .footer-enlaces ul {
+        padding: 0;
+    }
+    .footer-iconos a{
+        margin-right: 1rem;
+    }
+    .footer-enlaces h3{
+        color: #fff;
+    }
+    
+    .footer-enlaces a{
+        color: v.$GrayishViolet;
+    }
+}
+

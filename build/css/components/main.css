@@ -1,0 +1,7 @@
+.main {
+  margin-top: 2rem;
+}
+.main .div-main {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
